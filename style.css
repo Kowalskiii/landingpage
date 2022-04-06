@@ -1,0 +1,64 @@
+body {
+	margin: 0px;
+	background-color: #504460;
+	color: white;
+}
+
+.logo {
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+
+img {
+	height: 300px;
+
+}
+
+.columleft {
+	/*border: 1px solid black;*/
+	width: 50%;
+	text-align: left;
+	padding-left: 70px;
+}
+
+.columleft p {
+	font-size: 28px;
+	font-weight: bold;
+	color: #e61aab;
+}
+
+.columleft .p2 {
+	font-size: 21px;
+	color: white;
+}
+
+.columright {
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+
+input {
+	margin-bottom: 10px;
+	width: 450px;
+	height: 25px;
+	border-radius: 5px;
+}
+
+button {
+	margin-top: 10px;
+	margin-left: 104px;
+	border-radius: 10px;
+	width: 250px;
+	height: 50px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: arial, sans-serif;;
+	background-color: #7f30ca;
+}
+
+button:hover {
+	background-color: #7911dc;
+}
