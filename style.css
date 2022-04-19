@@ -1,6 +1,6 @@
 * {
 	margin: 0px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .banner {
@@ -25,7 +25,7 @@ header .logo img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding-left: 1.25rem;
+	padding-left: 20px;
 }
 
 .banner_headline h1 {
@@ -68,7 +68,6 @@ header .logo img {
 	padding: 10px;
 	border-radius: 10px;
 	color: #ffbf00;
-	flex: 1;
 }
 
 .texto_botao {
@@ -79,6 +78,84 @@ header .logo img {
 	padding-top: 20px;
 }
 
+.formulario {
+	background-color: white;
+	max-width: 400px;
+	height: 500px;
+	flex: 1;
+	margin: auto;
+	margin-right: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+}
+
+input {
+    width: 345px;
+    height: 31px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+	border: 2px solid #ccc;
+	border-radius: 6px;
+}
+
+#cadastro {
+	width: 353px;
+	height: 60px;
+	background-color: #ffbf00;
+	border: 2px solid #ffbf00;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#cadastro:hover {
+	background-color: #fdd14c;
+	border: 2px solid #fdd14c;
+}
+
+.tituloformulario h1,p{
+	width: auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.container1 {
+	display: flex;
+	margin: 80px 10px 80px 10px;
+}
+
+.container1 img{
+	height: 50px;
+}
+
+.conteudo {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+.container2 {
+	width: 90%;
+
+	margin-bottom: 200px;
+}
+.container2 h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px;
+}
+
+.area1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 20px;
+}
 
 
 @media (max-width:600px){
