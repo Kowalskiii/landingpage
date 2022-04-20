@@ -7,8 +7,6 @@
 	background-image: url(https://www.liderinteriores.com.br/wp-content/uploads/2020/10/sala-de-estar.jpg);
 	display: flex;
 	justify-content: center;
-	position:cover;
-	background-size: cover;
 	height: 700px;
 }
 
@@ -138,32 +136,199 @@ input {
 }
 
 .container2 {
-	width: 90%;
-
 	margin-bottom: 200px;
 }
 .container2 h1{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 50px;
+	margin-bottom: 50px;
+}
+
+.container2 h2 {
+	margin-bottom: 50px;
 }
 
 .area1 {
 	display: flex;
+	align-items: center;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.area1 img, .area2 img, .area3 img {
+	width: 500px;
+	height: 334px;
+}
+
+.area1-texto {
+	padding-left: 50px;
+}
+
+.area2 {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	text-align: left;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.area2-texto {
+	padding-right: 50px;
+}
+
+.area3 {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.area3-texto {
+	padding-left: 50px;
+}
+
+.footer1 {
+	display: flex;
+	flex: 1;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
-	margin: 20px;
+	height: 200px;
+	background-color: #ffbf00;
 }
 
 
+
+.footer1 .coluna img {
+	width: 40px;
+	margin: 10px;
+}
+
+.botaocontato {
+	display: flex;
+	width: 188px;
+	height: 34px;
+	border-radius: 20px;
+	background-color: #d9534f;
+	align-items: center;
+	justify-content: center;;
+}
+
+.botaocontato a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.footer1 ul {
+	margin-right: 100px;
+}
+
+.footer1 li {
+	list-style-type: none;
+
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+.footer1 a:hover {
+	color: white;
+}
+
+.footer2 {
+	height: 50px;
+	background-color: #fdd14c;
+}
+
+.footer2_texto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+}
+
+
+
+
 @media (max-width:600px){
-	header .banner img{
-		height: 300px;
+	*{
+		flex-wrap: wrap;
 	}
-	header .logo img {
-		width: 30px;
-		height: 20px;
+	.banner {
+		background-size:;
+		width: 100vw;
+	}
+	.banner_headline h1{
+		margin-top: 100px;
+		text-align: center;
+	}
+	.botaoplay {
+		margin-bottom:20px;
+		margin-left: 20px;
+	}
+	.formulario {
+		margin: auto;
+	}
+	.container1 {
+		margin-top: 350px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.container2 {
+		margin-bottom: 50px;
+	}
+	.area1,
+	.area2,
+	.area3 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.area1 img,
+	.area2 img,
+	.area3 img {
+		width: 100%;
+		height: auto;
+	}
+
+	.area1 h2,
+	.area2 h2,
+	.area3 h2{
+		margin-top: 20px;
+	}
+
+	.area1-texto,
+	.area2-texto,
+	.area3-texto {
+		text-align: center;
+		padding: 0px;
+	}
+
+	.footer1 {
+		margin-top: 0px;
+		display: flex;
+		justify-content: center;
+		height: auto;
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+	.coluna {
+		width: 300px;
+	}
+	.botaocontato {
+		margin: auto;
 	}
 }
